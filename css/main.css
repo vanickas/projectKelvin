@@ -16,6 +16,7 @@ body {
 
         .header {
             padding-top: 46px;
+
             background-color: #F1F1F1;
         }
 
@@ -59,6 +60,10 @@ body {
             text-align: left;
         }
 
+        .nav-button {
+            display: none;
+        }
+
         .nav-link {
             color: #000;
         }
@@ -71,13 +76,16 @@ body {
         .header-row {
             display: flex;
             justify-content: space-between;
-            column-gap: 30px;
-            padding-top: 76px;
+            column-gap: 40px;
         }
 
         .header-content {
             max-width: 500px;
             margin-top: 124px;
+        }
+
+        .header-image {
+            margin-top: 76px;
         }
 
         .header-title {
@@ -103,7 +111,11 @@ body {
         .services-row {
             display: flex;
             column-gap: 30px;
-            text-align: left;
+            row-gap: 60px;
+        }
+
+        .card {
+            flex: 1 1 0;
         }
 
         .card-image {
@@ -181,12 +193,34 @@ body {
             line-height: 27px;
         }
 
-        .send {
+        .send-button {
             margin-bottom: 80px;
+        }
 
-            font-weight: 400;
+        .btn {
+            display: inline-block;
+            padding: 7px 22px;
+            background-color: #070707;
+            border-radius: 30px;
+
             font-size: 18px;
+            font-weight: 400;
             line-height: 27px;
+            letter-spacing: 0em;
+
+            color: #FFFFFF;
+
+            transition: background-color 0.2s ease-in, top 0.2s ease-in;
+        }
+
+        .btn:hover, .btn:focus {
+            background-color: #343434;
+        }
+
+        .btn:active {
+            position: relative;
+            top: 1px;
+            background-color: #000;
         }
 
         .contact-icons {
