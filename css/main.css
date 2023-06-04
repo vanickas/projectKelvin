@@ -80,7 +80,9 @@ body {
             margin-top: 124px;
         }
 
-        .title {
+        .header-title {
+            margin-bottom: 20px;
+
             font-weight: 600;
             font-size: 44px;
             line-height: 66px;
@@ -122,4 +124,79 @@ body {
             font-weight: 400;
             font-size: 14px;
             line-height: 200%;
+        }
+
+/* Portfolio */
+
+        .portfolio {
+            background-color: #F1F1F1;
+            text-align: center;
+            padding: 90px 0;
+        }
+
+        .portfolio h3 {
+            margin-bottom: 70.33px;
+
+            font-weight: 600;
+            font-size: 34px;
+            line-height: 51px;
+        }
+
+        .portfolio-image-1 {
+            margin-bottom: 40px;
+        }
+
+        .portfolio-image {
+            padding-top: 90px;
+            margin-bottom: 40px;
+        }
+
+        .portfolio-description {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            text-decoration-line: underline;
+        }
+        
+/* Contact */
+
+        .contact {
+            text-align: center;
+            padding: 90px 0;
+        }
+
+        .contact h3 {
+            margin-bottom: 40px;
+
+            font-weight: 600;
+            font-size: 34px;
+            line-height: 51px;
+        }
+
+        .contact-top {
+            margin-bottom: 40px;
+
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+        }
+
+        .send {
+            margin-bottom: 80px;
+
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+        }
+
+        .contact-icons {
+            margin-bottom: 40px;
+
+            display: flex;
+            justify-content: center;
+            column-gap: 60px;
+        }
+
+        .contact-bottom {
+            color: #828282;
         }
