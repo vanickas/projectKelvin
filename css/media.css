@@ -7,6 +7,11 @@
         display: block;
     }
 
+    .nav-nav {
+        background: none;
+        position: relative;
+    }
+
     .nav.open .nav-list {
         position: fixed;
 
@@ -43,7 +48,7 @@
     }
     
     .header-nav {
-        margin-bottom: 50px;
+        margin-bottom: 1em;
     }
 
     .header-row {
